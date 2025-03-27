@@ -1,0 +1,222 @@
+{
+    "id": "APOKRA0F",
+    "keypin": "APOKRA",
+    "name": "Welcome to APOKRA",
+    "label": "New QR #15",
+    "qrUri": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAIAAABqcO2fAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAZ0UlEQVR4nO2de5AcxX3Hv79d6fSWTifpBIfQi1QhzMMRRhgQDwM2DhjKlRiIiSuEpFLGdkGREoGEIlQgDhCHAr+wHTAFqRQxILnMQ1jImIcxFoWQzVNCGIQkchLiJHQSupPupLvdzh\/z2O6Zud25vu6Zud7fp6it26ZfO\/NV76+\/3T1LQggwjLuU8u4Aw9iFJc44DkuccRyWOOM4LHHGcVjijOOwxBnHYYkzjsMSZxyHJc44DkuccRyWOOM4LHHGcVjijOOwxBnHYYkzjsMSZxyHJc44DkuccRyWOOM4LHHGcVjijOOwxBnHGWOqIiIyVZUe\/EAY47hxT41JfLQQ3rY6ly+ex1SKvR7q5WkGmitQkYeloYaoeB5TKfZ6qJenSWguiTNNCEuccZzmkrgclQ4VocbzmEqx10O9PE0Cmfr88YDP3pVNDC6b\/EbawI17yo5Kpt6IqbZM9bAZaK5AJV9vxFRbpnrYJDSXxJkmhCXOOE5zSTxfb8RUW6Z62CRk6qjohYkp6+Fbaxw37qnjjkqWu0TsuS569dgrNbpwOVDJcpeIPddFrx57pUYdLkucYcASZ5zHZYlnuUvEnuuiV4+9UqMOx6ebencuTal4HlNt2euzqVKjC8clbsoxsHdWyF49ejW7h8uBiinHwN5ZIXv16NXsJC5LnGHAEmecx2WJm3IM7J0VslePXs1O4vh009SdM+WxZFmPXs3u4bjE49h7AkmWzz\/hk0HpcTlQiWPvCSRZPv+ETwYNi+aSONOEsMQZx2kuidt7Aompmu3laRL\/JA4\/R4UZEjfuKTsqObee5S4aU6VGF80VqOTrKthzOfjUTx2aS+JME8ISZxynuSSer6tgz+XgUz91sOioZIzDNykv3Linjjsqxd83Uvw8ox2XA5Xi7xspfh4HcFniDAOWOOM8Lku8+PtGip\/HAdhRYYbEjXtqTOLNhj0vIt8zR+7hcqBiD3teRL5njpyEJc44DkuccRyWuA72vIh8zxw5CU83GccpxB4Ve09w1SuV71NK9HpYNEelOE9xyT9QsfcEV71S+T6lRK+HRXNUCvUUl\/wlzjBWYYkzjpO\/xPXOwtgrle9TSvR6WDRHpVBPcWFHhXEcw46KvZl+8Z83YqpmU15Evq6UqVIjx2SgYm+mX\/znjZiq2ZQXka8rZaqUEfKPxRnGKixxxnFMStzeTL\/4zxsxVbMpLyJfV8pUKSOwo8I4jvU9KlnO0PXyNA\/2nJk0pex5R\/WxG4tnOUPXy9M82HNm0pSy5x01hKebjOOwxBnHsSvxLGfoenmaB3vOTJpS9ryjhrCjYoVqFdt2YeNWsXkbPuiind3Yuw\/7D+DQAAhoGSMmT6C2KWhvw9zDxMI5WLSAOtpR4u9UCxiWePGdkJQ1VyqVcrkc\/7s+A4N4ZSNefEO8vAHdn4AEACIICBDgvZIAIL8lQBDQNg1LjsPSxXTicRhrx+jKy9PIvi2lXZPfCOosOLFmU3n0SFNzpVIJ\/y6Xy+Hb8O\/IH97rR3tKv3gBq9fSvv3JUh5C30AscdoknLtUXHgO2mdU5SYa9kF+m+azp0mpezmHQZZtRZtmicvI+oYq8aHo3FV64Cl67lWIqiAQBAiCBAEgCAgKXsO3gBAEIgHAK5JQkEBnnozLviw6ZleH+zFZ4krTLHGZhoKW6e0v3fckPb4G1ao6VCN8W1PwEMO5+m8gNvCXS+KLZ9FfXywmThiG0FniStMci2tQreI3b+CuR8Se3gahtqfg5PjEf+v9G6gT2FDrVHHl5XTqSSOdj3IszqTiwEFx53JavVYANYH6UoaibE\/B4R+qlNWC6sTUfyuUJs5eSl+\/QkwY3+zLtMPF+ihu7wyLjd0vDQOVnXvL19+L97dDiq3DMEMAtVBbiq2HitHDoFwp6MfoajTvvZ0\/BzdcixltDTo5lP+T5V6g4uxRsRuLm4rA9OrRKzWUowJg04elZT+mvT1AI6uknn+iXVAAwLSp+Jfrxfy51cQehommroap65zjTIAl3hjPhntzs1j2E\/T1Acmh9lBBeRifeMN5QqidyjiXEidOwI3X06Kj0\/R9pFfDAYnzeloUb1CsVCry6PjHTiz7CQ70URBRUBB7hDIN544U6JJUmUItSFKi\/1YtSEHQEjbhF+w\/QLd9R2zeXOuq3OFhmULNQNanfuzteTBSKq6SSqWyc2952Y\/R1+d52wjC6MAfVLyRiKD9V0QLUsxUAaL\/EqDqWynYf4Bu+w\/s3h0NSOro29Q11KvZnjYawo5KMuEa4YGD4sq7sHk7MISjN9wwI5YncE6GjL8jTkst59wj8e1vYzx7LHUxHKhQQJ2UNKXs9ach8jd+tYo7l3v6jqzdUFzK6qCuLuUAamADEqSM8cpQHZqG0Sak2kCCOv8P99+HajXabd2rlYypu6OnjZEzOp6jYqo\/DYno4zdvYPVaOaomSbuy6AleohKjK6G2lEhJopdDkaC2eDQfNBH+O3nxt1i3VoTdtqHvxL9HXo+9+x6Bp5sKXnDivfb2l+56RACCIIJlGhH4J0KNT4QXTYc5SQjVP4kXDHMioaDaRO1tkBNSzgfuQ9+BskwOF67AsMQT8MbCe1fSnl4KRm7\/lUCBuSF5I5E83lAtKJhfSolSHslUiRWEnAdSbXJB\/7VnH614mB2VIRkdz1Ex1Z80eANh567yypfCwVUEa5OQ3\/rjrjrGl0kc0S7+5EjMapMLymN88DYY6QmifYZYOA+HzxblUvi9AcRywh+5g7fwvxye\/7Xo2lGWv4LyvYZp6rF33yMY3nsf72ua3tv7hBo1e17KA0+F+wfVaWKwlKNuSiEItE6myy7Auadg2mQQQQjasUuseh4rn8XAQDicB1GHAEAtY8SF5+HPzsHsWUQEIbCvh174HR59XPT0RNwYNcQPtq94f4gKHl2Ob1xTqbNfXBtTd0dPGyMnB9Mw330RDfHON3z1FhLVVCvqXuIxC3DztzCjNaHCTVtxy\/fRvSdafEYrblqGhfMTinTvwX\/eifffrzWReHhCTiwR7rhbtB9GI5S4vR1E2ewrjJN1LG7KY0kzQ9ebs5fL5V+8QKIq1LhCSEGLGi0I0TFL3HqNaJsm4gA4ap74t2VifItS2\/gW8a\/XiQXz\/K\/s8LvbY3qruPGfxOxZkfgEfrtyr8JIpiqeXU0YWaCid8Xs3Qsj8HQzysAgVq+VvG2EM8Ih1+evugxTJ\/k3svcAPf4MfvoIPfcSDQYTv\/lzcPEFSsGvXEjzj\/Tv9GAFL\/yO\/vtBrPoV9h\/wfeIpU+jvrvADG8U0hDoHDUZxgNY8h8EBnm5GKcSPEhaHSqXyysbSvv2ylGV9J6zPzz0MS47z9f3hTlz\/Heze48tu1fO49TqMawERXXAuVjxBg4MgYGyZzj\/Xb7G\/Hzffjvc2+TH9yidxy02YPZsALF6MjsOwY0d0JV9ZGJIimd4erH9dHH9itpes8GQ9iue7L6Ih5XL5xTdkq1uJT2KJIIHFixCGGPc+LHbvqbna72zCY7\/yW586WSyc6xdcOE9MmewHJ0+s8vTtxx67d4v\/eTAMcsTxx4f6FoF\/IoVJ\/qQznMKKV18eUaBibwdRZv5JnBwCFTlONZsnTUp9qlW8vCEQjbTzpGaGRN4C7TOAIL586x1EDJA3N\/o1E9GsGX7xWTNq8eiGt6Prlxs21Cqc6VUe1KmM3MGXiTzGr38N1eqIBDTcKzZUqZHfC1NYl3ianQnF2QWxbZcInn8Si7+9+mLhyuBgTa\/jWuQYnSAwvsXvBoDBAX993t90TgRg3LhoqD2uhcLO9\/XF9U21KCWy21bgk93YuWMY18fUNbRX88jJ+sm09ubaRmreuDVcLYeyaB9ddQ+9DnywvWaJnH1KNOfnTgWCAaxzu1\/wvfcxMOAXOeO0WpgBgCDOOL3mrmx8G\/CHaslUCVby1S2KAhAAtryb9vqYuob2ajYCOyoKm7dRMFSri\/ZCeZXy4A9vUf9BfzS6\/C\/o9JP8BfYxZfrql+mMz\/pj1ZYPqGunNwDT\/l76\/Wt+kdNPw8V\/TmPKfp2nnkKXXur\/r64u2vSu5MMo+wLkNXzIC\/vbtuZ9EQsGOyoKH3TVVi6TFjXjp9Ro\/wHx2K9x2UUkhGgZi3\/+FnbsxMfddOThonUaiPzFtUceJYjaxvGVq+iUJV54QZdeIr54HrZvpxkzxOzZACAEiOipJ4WoymucwXpqLTJR1ji9nB91Zn7Vik3WT6a1N9c2UvPObpJmmYH9LK3h+w\/9kSaUJPDwE\/Tmxlpk2TGbTjgG01trX76\/fJpe+UNoihME3n0Xr71ey9DaSscei9mzEcamu3biheeioXbMDvfjfkjRfPeu5C99Uz5VljUbwXqgkuVce+Q1d39Sm2Um79gGYufTaHAQt3wPz65BpB0iGhjAQz+n+x+Mn\/TBgz9DpaJEpVJISg\/\/LwYPAWE3gvWdmJ0i+fcCAPXsHcb1SZNHr5SpmkdODo6KvZr1UmT6+iITythquYgk+jPLgwfF9+4Vy1cKmf37xbU3YcXjAtWE2rZ1iqdW12aWkG75hrfE2pdk59uf3UZMcWUOGuTs6x2GYrJ0QvTaGjn5\/9aPqZr1UiIcGgj9wdhwrgQtkfPz\/jh6oI+khuju+9C5LWpB1lZMQT9fga4upTNEdOgQPfBTQEgBiXyULtgC4O9cj0UygwNpr3OWToheW0ZgR0XBF6tIClckwzv5VKUI0okAvLEeL69TXG1FpgIEHOzHvffUwhuv4PKfoWtHwvo81Pik9n\/DPF4dWS+tFB2WuEJLOTS8k\/cYqokIZnt+ohRriBOOFYuPB\/x\/CUqAEdYJ4O31eOqXtWLr3xBPrxpyfV6NT8IoRTbOxZixrHGF\/H\/rx1TNeikRJk+M7cYGpEE9uj5PtUTlm9WLJ6\/5JlqnRtfnoUwTAeCRh7B1C4ioZx\/uuRuo+k2QMn4jiE+kt0lj\/KTJ+tcwTR69e6rXlhFycFTs1ayXItM2RX72AyUdqlfW5yHr2wtFpKj6oy7s3x9dn1ejahAwOIC7v0u9vfivH2JvdxBhyyKWmkDMNFRqE5gydRhRbJZOiF5bI8fw0k94g+v0Mk2eLGuWaW8TW7ZB8jEQOwaPYH1eHtTDoMVvWQjR24vv\/hCVQfkkG4JDmVDX3tG1Q9x4Lbo\/VnKqoXb4Niwo1DHez9DWLoKxXgdT13nk98IUdp+jopcny5ojzD1MWi2PH6pHPBHRPAFdO2nvHvnsAiWenw+\/HLo\/DppAJA+iRUQkj9+Et9fg8Dl6Hz3tNczRG9GDp5sKC+cA0uH2mP+duBNLBEOsINS+Z49aKP7qL70RVyS52n5+xdUWaothzqj\/nVQQ\/h9HLMj+shUalrjCogW15czEM2zSNDG28CmN4gCI6EvnY2YbgDBwl8fd2FZYhIkUS6wbzfsPEPUT5x2d86hZNEzG4kJ6RHSdWbNGlGav5ggd7Wibhj17ZX0rpgqUxMjieaQ\/ePwJ2r075sYo00QigWoZWz8ruudh4l46ag0m7o373\/H5paLy8G3rdJrVoffRvT6buc5G7oUprD9HRS9PljXLlEpYchyeflGa3iHUtzS9gzx+y+Z0bR3nvU1YsULeBghIxcO3lRY884\/YdZSXLNZfgPPuwMwtEStQ2mko11P7NvCaoE+dJEqlEY3ipq5z7soOGTWBiqmdEg1Zuli1uoOnrqlBC8XCjCAUCaKUIzpo1kxIA3+4RKqcn994HnYdFc4zcWgiXvpbKUBKGPilxdRY4qdPozon8LPcbVIcRofETe2UaEilUjnxOJo2CZKUMUR84iUiSPQ2jdT6M2kS\/uEatIyVcop4mIGPjoFk8RGIuufi0KRa8KMO\/CSHLpE8k6dg0WeG\/GhZ7jYpFKND4plRLpfHjsG5S+ss2ssbDwFf337ipk3CO7Hm0TodE8YDoTcSX8MHxhyEt\/Dv\/wdBVVEeGHJ9XjVV5BBInPwFjBlr+JmGDsASj1KpVC48x18\/R2R9vtHz7Te+je\/\/AJUKiKinB7ffip59yk4syHGFAAFHrQlV7I+I83+Psf1KExH\/JEhURvoS4cyLBPjJtDFGh8RN7ZRoiKeP9hnVM09ONA0bPd8etG4d\/ehH2LcPt99K2zrj+o6ahvPX0Z8+VqVBvwMdG7D0gbh\/IvuDyabh4rNoenvV+G\/9pKmn4PBv\/STT+SGuulGICiAN1YnbsyJL8X5YPAn7e0OZRpbi1XoEAaJ\/qthzJE3ci7ZOxGpLbiJ8JVCpJG64h2YeYfiZtG6Qw\/HkuGOaJsVUWw3xBsKO2Tj\/c+VVz9bXd0LQAoBEqO+EiAJxmYImfkITP6mTJx601F4BnHY+zTyi9lso6X892VQeUyk2yP\/JtPbcEr16wp8T+dpXROvUcH4JeZUe8oPxpfV5dSaavMyeWDDN+nxs0gnvAS9TpuFLV4jwJ1Aa6rvO1dDLYyrFEqMjFs+S8OdEpkymKy+PxN\/yUmU0EQl7pxDkkU3xeqF2kEdJpKRo3q9Q4JKrMGk4G2ibDZZ4AqHKTz2Jzl4axsHypBMIJVhbGAIQCTPix\/jlgsNen5dzen8s+TxOON3vc4j1CzSqyP\/JtPbcEr165G\/8UglfvwLz53iaij+7PuFUfMz\/RtJD72MhTbCZMXrGPimSoaB4xwJxydVUKtW6XecX29JcDb08plIsUYgn05o6V5KmrYZEfsOyZWz1hmtp2tSIaUixMIPUMEM6oo\/EgpJ7mBy0UDhUS4m1+GRyK\/39LTRuQu07p+EvtqW5Gnp5TKXYoBCBit7eiTSlhltzokpmtFVuvA4TJ8Qf0+O9DV9jYQbqxydS8VpBqtNE+GCJcRPpG7eidVZU1vWjFFM7UkztdTHVwwZ15u6LRz6PkPZhhil6pfRq9pCtN+\/vd\/4obvsO+g8AiKhWqDKNGoJpfuI+qWC0Cf8LQWDcRHzzVlpw7FB9Tyb9Z69faiRX1UYPG1KIUbxQRL7xw9dFR9PNN9HUqXE7xXuNPPkkPgwPuQUgzfq8FJ\/g6jtowbEJ\/eSflk2EJa5QRx+VSmXe3Mpt\/05zjwSkWCLxUVVqIsIYRts09PTdsQDLfkAdCyuRyCRloNKc5B+oQPqGGta6l9UVtXigEv6v\/n5x\/3304m+9g5up1ueT4pNhrM97gcqSz9MlV4txE6Jxati9hr+4qbeaWPDV6MZ1FkHihUIeCL0fI478XS6Xq1Wxbi0euA89+yL7B4G4TJNj9LiUY3mCxCnTcMlVOOF0lEoI+yD\/EX9r5dKMTgxLPPfR1wZDiaa3R6x4iJ5\/xtutFT7QXh2ba4N0ZGIavo3nhJefIEolLL2ALvgbYWn90t790qvHBiYlXgQnZOSEg2L47Y9g44f8d5i5a0f50eXilZfIf1CbMlSLIJKJTCVFMN0UQSQjvwUJQUQnniXO\/1rC\/sFIZKI9bNu7X3r1pOv1sGGJR2kYqET+r\/e6e1f52dVY8xx6e4YXn8QTJ0\/ByV\/AmRdhenslEofEScyQUvEs8eHX5YTEPepMN+swOID1r+PVl8X61+iT3YnxCZBgBQoArdPxqZPo06eJRZ\/BmLFWwpIILHGt6kZ\/LB6fvXnp8cTEqR6C+ejOHdjyLrZtpY860b1L9Oylvl4xOAASNGasmDSJpkxDW7s4bA7NWSDmHY1ZHZRyNtkwQ\/q4hWNxhhn15PBk2ixL5ejDFJAsr3OWSqhP1k+mzbKUXs2ukuV1zlIJDeEFfMZxWOKM45iUeGS3e+6l9Gp2lSyvc5ZKaAg7KozjFOK3fuztU8vXDcgyxVQP9erRaysbvyv\/3\/oxNY\/Wq9meG5Bliqke6tWj11ZmfhdPNxnHYYkzjpO1o2Jq9m2qZntuQJYppnqoV49eW5n5XeyoMI5j3VEx5XLYy2Oq5nx35OXr5xR576FdR8WUy2Evj6ma7X32LPuTpeeTmcfC003GcVjijOPYdVRMuRz28piq2d5nz7I\/WXo+mXks7KgwjpPDb\/1kSZa7TfTqybLPptrSaz2bHSlxXI7Fs9xtoldPln021ZZe65ntSInjssQZBixxxnlclniWu0306smyz6ba0ms9sx0pcYw5KhkHWHHYGmISYUclU\/8kS5cjDfnuBcoGlwMVe7s7sqzHHvnuBcoMlyXOMGCJM87jssTt7e7Ish575LsXKDMsOir2Pm1iwFfAi8sUAccdFT2Kc2IlfVumUkz1UO9T2MDlQEWPQp1YSdmWvbM5ej3U+xSWYIkzjsMSZxyHJR6lUCdWUrZl72yOXg\/1PoUlMnVU9EKulPWwo8Ik4rijku\/5Hb0emqrH3r6aovk59XE5UMn3\/I5eD03VY29fTdH8nIa4LHGGAUuccR6XJZ7v+R29Hpqqx96+mqL5OQ1hR4VxnKZzVNLkKdoZlqI5GEWrpz4uByoF3zuRkqI5GEWrpyEuS5xhwBJnnMdliRd870RKiuZgFK2ehrCjwjiO445KnHz9k+I7PHptFW3nj4zLgUqcfP2T4js8em0VbedPhOaSONOEsMQZx2kuiefrnxTf4dFrq2g7fyLwc1QYx2k6RyUNem6AqZqzxN5eF3ZUioueG2Cq5iyxt9eFHRWGyQ6WOOM4LPEoem6AqZqzxN5el2ZxVDKmCKJhCkjTOSpF2wFiqj\/5ngyy50GNnOYKVIq2A8RUf\/I9GWTPgzJCc0mcaUJY4ozjNJfEi7YDxFR\/8j0ZZM+DMgI7KozjGJM4wxST5gpUmCaEJc44DkuccRyWOOM4LHHGcVjijOOwxBnHYYkzjsMSZxyHJc44DkuccRyWOOM4LHHGcVjijOOwxBnHYYkzjsMSZxyHJc44DkuccRyWOOM4LHHGcVjijOP8P\/3Dr4jl7RsEAAAAAElFTkSuQmCC",
+    "qrRedirect": {
+        "url": "keypin.tech\/qr\/APOKRA09",
+        "active": false
+    },
+    "sections": [
+        {
+            "section": {
+                "uri": "APOKRA0F-330-2024-09-12-11-09-33"
+            },
+            "style": [],
+            "id": 330,
+            "type": 0,
+            "label": "Header Image",
+            "listOrder": 0,
+            "active": true,
+            "persistent": false,
+            "labelVisible": false
+        },
+        {
+            "section": {
+                "items": [
+                    {
+                        "content": {
+                            "value": "Vegan"
+                        },
+                        "id": 19,
+                        "listOrder": 0
+                    },
+                    {
+                        "content": {
+                            "value": "Premium ingredients"
+                        },
+                        "id": 20,
+                        "listOrder": 1
+                    },
+                    {
+                        "content": {
+                            "value": "Fuss free, mixable vitamins for kids"
+                        },
+                        "id": 21,
+                        "listOrder": 2
+                    },
+                    {
+                        "content": {
+                            "value": "All-in-one pre and post natal tablets"
+                        },
+                        "id": 22,
+                        "listOrder": 3
+                    },
+                    {
+                        "content": {
+                            "value": "Fish free"
+                        },
+                        "id": 23,
+                        "listOrder": 4
+                    },
+                    {
+                        "content": {
+                            "value": "Highly bioavailable ingredients"
+                        },
+                        "id": 24,
+                        "listOrder": 5
+                    },
+                    {
+                        "content": {
+                            "value": "Plant-based ingredients"
+                        },
+                        "id": 25,
+                        "listOrder": 6
+                    },
+                    {
+                        "content": {
+                            "value": "Sustainably sourced omega 3 from algae"
+                        },
+                        "id": 26,
+                        "listOrder": 7
+                    }
+                ]
+            },
+            "style": {
+                "layout": "grid",
+                "fillColor": "#65C372"
+            },
+            "id": 342,
+            "type": 6,
+            "label": "Features",
+            "listOrder": 5,
+            "active": true,
+            "persistent": false,
+            "labelVisible": false
+        },
+        {
+            "section": {
+                "text": "Visit APOKRA\u0027s website for more information",
+                "url": "https:\/\/www.apokra.com\/"
+            },
+            "style": {
+                "textColor": "#FFFFFF",
+                "fillColor": "#65C372",
+                "style": "solid",
+                "corners": "rounded",
+                "size": "lg",
+                "align": "center"
+            },
+            "id": 344,
+            "type": 9,
+            "label": "Button",
+            "listOrder": 7,
+            "active": true,
+            "persistent": false,
+            "labelVisible": false
+        },
+        {
+            "section": {
+                "title": "Visit our amazon store",
+                "subtitle": "Read our reviews",
+                "btnText": "Visit store",
+                "amazonUrl": "https:\/\/www.amazon.co.uk\/stores\/Apokra\/Apokra\/page\/98A068E7-AABB-48FE-B978-147F8EF8967B?ref_=cm_sw_r_cp_ud_ast_store_BSBT13WD8KE5VFQYPTF0"
+            },
+            "style": {
+                "theme": "dark"
+            },
+            "id": 347,
+            "type": 7,
+            "label": "Amazon Review CTA",
+            "listOrder": 6,
+            "active": true,
+            "persistent": false,
+            "labelVisible": false
+        },
+        {
+            "section": {
+                "items": [
+                    {
+                        "content": {
+                            "type": "instagram",
+                            "value": "https:\/\/www.instagram.com\/apokrahealth\/"
+                        },
+                        "id": 12,
+                        "listOrder": 0
+                    }
+                ]
+            },
+            "style": {
+                "layout": "row",
+                "style": "solid",
+                "corners": "rounded",
+                "size": "md",
+                "align": "center",
+                "logoTheme": "brand",
+                "logoColor": "#000000",
+                "backgroundColor": "#F1F1F1",
+                "spacingLeft": 30,
+                "spacingTop": 20,
+                "spacingRight": 30,
+                "spacingBottom": 20
+            },
+            "id": 340,
+            "type": 4,
+            "label": "Socials",
+            "listOrder": 4,
+            "active": true,
+            "persistent": false,
+            "labelVisible": false
+        },
+        {
+            "section": {
+                "content": "It was great to meet you today at the Manchester Baby Show! Thank you for taking a leaflet and learning more about our product range. Follow us on Instagram for your free vitamin C pack! Collect from stand :-D  Free samples of pregnancy and breastfeeding tablets also available, speak to our team. Hurry whilst stocks last! Link below for 15% off our website :-D"
+            },
+            "style": [],
+            "id": 332,
+            "type": 2,
+            "label": "Description",
+            "listOrder": 3,
+            "active": true,
+            "persistent": false,
+            "labelVisible": false
+        },
+        {
+            "section": {
+                "text": "Click to apply 40% voucher code or type BABYSHOW into voucher code box",
+                "url": "https:\/\/www.apokra.com\/discount\/BABYSHOW"
+            },
+            "style": {
+                "textColor": "#FFFFFF",
+                "fillColor": "#65C372",
+                "style": "solid",
+                "corners": "sharp",
+                "size": "lg",
+                "align": "center"
+            },
+            "id": 341,
+            "type": 9,
+            "label": "Button",
+            "listOrder": 1,
+            "active": true,
+            "persistent": false,
+            "labelVisible": false
+        },
+        {
+            "section": {
+                "title": "APOKRA - Manchester Baby Show",
+                "preTitle": "Thank you for taking a leaflet :-)",
+                "subTitle": "Scroll down for useful links"
+            },
+            "style": [],
+            "id": 331,
+            "type": 1,
+            "label": "Header",
+            "listOrder": 2,
+            "active": true,
+            "persistent": false,
+            "labelVisible": false
+        }
+    ]
+}

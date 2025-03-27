@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "hash-sum": "^2.0.0",
+    "lru-cache": "^11.0.2",
+    "node-html-parser": "^7.0.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "sass": "^1.85.1",
+    "sass-embedded": "^1.85.1",
+    "tsx": "^4.19.3",
+    "vite": "^6.2.1",
+    "vue": "^3.5.13"
+  }
+}

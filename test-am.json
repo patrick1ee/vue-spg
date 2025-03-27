@@ -1,0 +1,18 @@
+{
+    "section": {
+        "title": "Visit our amazon store",
+        "subtitle": "Read our reviews",
+        "btnText": "Visit store",
+        "amazonUrl": "https:\/\/www.amazon.co.uk\/stores\/Apokra\/Apokra\/page\/98A068E7-AABB-48FE-B978-147F8EF8967B?ref_=cm_sw_r_cp_ud_ast_store_BSBT13WD8KE5VFQYPTF0"
+    },
+    "style": {
+        "theme": "dark"
+    },
+    "id": 347,
+    "type": 7,
+    "label": "Amazon Review CTA",
+    "listOrder": 6,
+    "active": true,
+    "persistent": false,
+    "labelVisible": false
+}
