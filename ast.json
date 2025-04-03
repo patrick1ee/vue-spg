@@ -1,0 +1,872 @@
+{
+  "type": 0,
+  "source": "<script setup lang=\"ts\">\nimport { ref, PropType } from 'vue'\nimport { onBeforeRouteLeave } from 'vue-router'\n\nimport { SubProfile, UserSubProfile } from '@/types'\n\nimport SubProfileContainerModular from '@/components/profile/SubProfileContainerModular.vue'\n\nconst { subProfile } = defineProps({\n    subProfile: {\n        type: Object as PropType<SubProfile | UserSubProfile | null>,\n        required: true\n    }\n})\n\nconst contentActive = ref(false)\n\nfunction beforeUnloadListener (e: Event) {\n  e.preventDefault()\n  return ''\n}\n\nfunction onSetContentActive (active: boolean) {\n  contentActive.value = active\n  if (active) addEventListener('beforeunload', beforeUnloadListener, { capture: true })\n  else removeEventListener('beforeunload', beforeUnloadListener, { capture: true })\n}\n\nfunction onSectionClick (id: number) {\n  // SECTION CLICK\n}\n\nonBeforeRouteLeave((to, from, next) => {\n  onSetContentActive(false)\n  next(false)\n})\n\n</script>\n\n<template>\n  <div class=\"sub-profile-view\">\n    <div v-if=\"subProfile && subProfile.id.length > 0\" class=\"sub-profile-content\">\n      <SubProfileContainerModular\n        :subProfile=\"subProfile\"\n        :contentActive=\"contentActive\"\n        @onSectionClick=\"onSectionClick\"\n        />\n    </div>\n  </div>\n</template>\n\n<style scoped lang=\"scss\">\n  div.sub-profile-view{\n    width: 100%;\n    min-height: 500px;\n  }\n  div.sub-profile-content{\n    width: 25%;\n    margin: 0 auto;\n    padding-top: 5px;\n    padding-bottom: 15px;\n    min-height: 500px;\n  }\n  html, body {\n    padding:0;\n    margin:0;\n    border: none\n  }\n\n  @media only screen and (min-width: 1200px){\n    div.sub-profile-content{\n      width: 40%;\n    }\n  }\n  @media only screen and (min-width: 1001px){\n    div.sub-profile-content{\n      width: 45%;\n    }\n  }\n  @media only screen and (max-width: 1000px){\n    div.sub-profile-content{\n      width: 50%;\n    }\n  }\n  @media only screen and (max-width: 850px){\n    div.sub-profile-content{\n      width: 65%;\n    }\n  }\n  @media only screen and (max-width: 750px){\n    div.sub-profile-content{\n      width: 75%;\n    }\n  }\n  @media only screen and (max-width: 650px){\n    div.sub-profile-content{\n      width: 100%;\n    }\n  }\n</style>\n",
+  "children": [
+    {
+      "type": 1,
+      "tag": "script",
+      "ns": 0,
+      "tagType": 0,
+      "props": [
+        {
+          "type": 6,
+          "name": "setup",
+          "nameLoc": {
+            "start": {
+              "column": 9,
+              "line": 1,
+              "offset": 8
+            },
+            "end": {
+              "column": 14,
+              "line": 1,
+              "offset": 13
+            },
+            "source": "setup"
+          },
+          "loc": {
+            "start": {
+              "column": 9,
+              "line": 1,
+              "offset": 8
+            },
+            "end": {
+              "column": 14,
+              "line": 1,
+              "offset": 13
+            },
+            "source": "setup"
+          }
+        },
+        {
+          "type": 6,
+          "name": "lang",
+          "nameLoc": {
+            "start": {
+              "column": 15,
+              "line": 1,
+              "offset": 14
+            },
+            "end": {
+              "column": 19,
+              "line": 1,
+              "offset": 18
+            },
+            "source": "lang"
+          },
+          "value": {
+            "type": 2,
+            "content": "ts",
+            "loc": {
+              "start": {
+                "column": 20,
+                "line": 1,
+                "offset": 19
+              },
+              "end": {
+                "column": 24,
+                "line": 1,
+                "offset": 23
+              },
+              "source": "\"ts\""
+            }
+          },
+          "loc": {
+            "start": {
+              "column": 15,
+              "line": 1,
+              "offset": 14
+            },
+            "end": {
+              "column": 24,
+              "line": 1,
+              "offset": 23
+            },
+            "source": "lang=\"ts\""
+          }
+        }
+      ],
+      "children": [
+        {
+          "type": 2,
+          "content": "\nimport { ref, PropType } from 'vue'\nimport { onBeforeRouteLeave } from 'vue-router'\n\nimport { SubProfile, UserSubProfile } from '@/types'\n\nimport SubProfileContainerModular from '@/components/profile/SubProfileContainerModular.vue'\n\nconst { subProfile } = defineProps({\n    subProfile: {\n        type: Object as PropType<SubProfile | UserSubProfile | null>,\n        required: true\n    }\n})\n\nconst contentActive = ref(false)\n\nfunction beforeUnloadListener (e: Event) {\n  e.preventDefault()\n  return ''\n}\n\nfunction onSetContentActive (active: boolean) {\n  contentActive.value = active\n  if (active) addEventListener('beforeunload', beforeUnloadListener, { capture: true })\n  else removeEventListener('beforeunload', beforeUnloadListener, { capture: true })\n}\n\nfunction onSectionClick (id: number) {\n  // SECTION CLICK\n}\n\nonBeforeRouteLeave((to, from, next) => {\n  onSetContentActive(false)\n  next(false)\n})\n\n",
+          "loc": {
+            "start": {
+              "column": 25,
+              "line": 1,
+              "offset": 24
+            },
+            "end": {
+              "column": 1,
+              "line": 38,
+              "offset": 931
+            },
+            "source": "\nimport { ref, PropType } from 'vue'\nimport { onBeforeRouteLeave } from 'vue-router'\n\nimport { SubProfile, UserSubProfile } from '@/types'\n\nimport SubProfileContainerModular from '@/components/profile/SubProfileContainerModular.vue'\n\nconst { subProfile } = defineProps({\n    subProfile: {\n        type: Object as PropType<SubProfile | UserSubProfile | null>,\n        required: true\n    }\n})\n\nconst contentActive = ref(false)\n\nfunction beforeUnloadListener (e: Event) {\n  e.preventDefault()\n  return ''\n}\n\nfunction onSetContentActive (active: boolean) {\n  contentActive.value = active\n  if (active) addEventListener('beforeunload', beforeUnloadListener, { capture: true })\n  else removeEventListener('beforeunload', beforeUnloadListener, { capture: true })\n}\n\nfunction onSectionClick (id: number) {\n  // SECTION CLICK\n}\n\nonBeforeRouteLeave((to, from, next) => {\n  onSetContentActive(false)\n  next(false)\n})\n\n"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
+        },
+        "end": {
+          "column": 10,
+          "line": 38,
+          "offset": 940
+        },
+        "source": "<script setup lang=\"ts\">\nimport { ref, PropType } from 'vue'\nimport { onBeforeRouteLeave } from 'vue-router'\n\nimport { SubProfile, UserSubProfile } from '@/types'\n\nimport SubProfileContainerModular from '@/components/profile/SubProfileContainerModular.vue'\n\nconst { subProfile } = defineProps({\n    subProfile: {\n        type: Object as PropType<SubProfile | UserSubProfile | null>,\n        required: true\n    }\n})\n\nconst contentActive = ref(false)\n\nfunction beforeUnloadListener (e: Event) {\n  e.preventDefault()\n  return ''\n}\n\nfunction onSetContentActive (active: boolean) {\n  contentActive.value = active\n  if (active) addEventListener('beforeunload', beforeUnloadListener, { capture: true })\n  else removeEventListener('beforeunload', beforeUnloadListener, { capture: true })\n}\n\nfunction onSectionClick (id: number) {\n  // SECTION CLICK\n}\n\nonBeforeRouteLeave((to, from, next) => {\n  onSetContentActive(false)\n  next(false)\n})\n\n</script>"
+      },
+      "innerLoc": {
+        "start": {
+          "column": 25,
+          "line": 1,
+          "offset": 24
+        },
+        "end": {
+          "column": 1,
+          "line": 38,
+          "offset": 931
+        },
+        "source": "\nimport { ref, PropType } from 'vue'\nimport { onBeforeRouteLeave } from 'vue-router'\n\nimport { SubProfile, UserSubProfile } from '@/types'\n\nimport SubProfileContainerModular from '@/components/profile/SubProfileContainerModular.vue'\n\nconst { subProfile } = defineProps({\n    subProfile: {\n        type: Object as PropType<SubProfile | UserSubProfile | null>,\n        required: true\n    }\n})\n\nconst contentActive = ref(false)\n\nfunction beforeUnloadListener (e: Event) {\n  e.preventDefault()\n  return ''\n}\n\nfunction onSetContentActive (active: boolean) {\n  contentActive.value = active\n  if (active) addEventListener('beforeunload', beforeUnloadListener, { capture: true })\n  else removeEventListener('beforeunload', beforeUnloadListener, { capture: true })\n}\n\nfunction onSectionClick (id: number) {\n  // SECTION CLICK\n}\n\nonBeforeRouteLeave((to, from, next) => {\n  onSetContentActive(false)\n  next(false)\n})\n\n"
+      }
+    },
+    {
+      "type": 1,
+      "tag": "template",
+      "ns": 0,
+      "tagType": 0,
+      "props": [],
+      "children": [
+        {
+          "type": 1,
+          "tag": "div",
+          "ns": 0,
+          "tagType": 0,
+          "props": [
+            {
+              "type": 6,
+              "name": "class",
+              "nameLoc": {
+                "start": {
+                  "column": 8,
+                  "line": 41,
+                  "offset": 960
+                },
+                "end": {
+                  "column": 13,
+                  "line": 41,
+                  "offset": 965
+                },
+                "source": "class"
+              },
+              "value": {
+                "type": 2,
+                "content": "sub-profile-view",
+                "loc": {
+                  "start": {
+                    "column": 14,
+                    "line": 41,
+                    "offset": 966
+                  },
+                  "end": {
+                    "column": 32,
+                    "line": 41,
+                    "offset": 984
+                  },
+                  "source": "\"sub-profile-view\""
+                }
+              },
+              "loc": {
+                "start": {
+                  "column": 8,
+                  "line": 41,
+                  "offset": 960
+                },
+                "end": {
+                  "column": 32,
+                  "line": 41,
+                  "offset": 984
+                },
+                "source": "class=\"sub-profile-view\""
+              }
+            }
+          ],
+          "children": [
+            {
+              "type": 1,
+              "tag": "div",
+              "ns": 0,
+              "tagType": 0,
+              "props": [
+                {
+                  "type": 7,
+                  "name": "if",
+                  "rawName": "v-if",
+                  "exp": {
+                    "type": 4,
+                    "loc": {
+                      "start": {
+                        "column": 16,
+                        "line": 42,
+                        "offset": 1001
+                      },
+                      "end": {
+                        "column": 54,
+                        "line": 42,
+                        "offset": 1039
+                      },
+                      "source": "subProfile && subProfile.id.length > 0"
+                    },
+                    "content": "subProfile && subProfile.id.length > 0",
+                    "isStatic": false,
+                    "constType": 0,
+                    "ast": {
+                      "type": "LogicalExpression",
+                      "start": 1,
+                      "end": 39,
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "index": 1
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 39,
+                          "index": 39
+                        }
+                      },
+                      "left": {
+                        "type": "Identifier",
+                        "start": 1,
+                        "end": 11,
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "index": 1
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 11,
+                            "index": 11
+                          },
+                          "identifierName": "subProfile"
+                        },
+                        "name": "subProfile"
+                      },
+                      "operator": "&&",
+                      "right": {
+                        "type": "BinaryExpression",
+                        "start": 15,
+                        "end": 39,
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 15,
+                            "index": 15
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 39,
+                            "index": 39
+                          }
+                        },
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 15,
+                          "end": 35,
+                          "loc": {
+                            "start": {
+                              "line": 1,
+                              "column": 15,
+                              "index": 15
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 35,
+                              "index": 35
+                            }
+                          },
+                          "object": {
+                            "type": "MemberExpression",
+                            "start": 15,
+                            "end": 28,
+                            "loc": {
+                              "start": {
+                                "line": 1,
+                                "column": 15,
+                                "index": 15
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 28,
+                                "index": 28
+                              }
+                            },
+                            "object": {
+                              "type": "Identifier",
+                              "start": 15,
+                              "end": 25,
+                              "loc": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 15,
+                                  "index": 15
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 25,
+                                  "index": 25
+                                },
+                                "identifierName": "subProfile"
+                              },
+                              "name": "subProfile"
+                            },
+                            "computed": false,
+                            "property": {
+                              "type": "Identifier",
+                              "start": 26,
+                              "end": 28,
+                              "loc": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 26,
+                                  "index": 26
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 28,
+                                  "index": 28
+                                },
+                                "identifierName": "id"
+                              },
+                              "name": "id"
+                            }
+                          },
+                          "computed": false,
+                          "property": {
+                            "type": "Identifier",
+                            "start": 29,
+                            "end": 35,
+                            "loc": {
+                              "start": {
+                                "line": 1,
+                                "column": 29,
+                                "index": 29
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 35,
+                                "index": 35
+                              },
+                              "identifierName": "length"
+                            },
+                            "name": "length"
+                          }
+                        },
+                        "operator": ">",
+                        "right": {
+                          "type": "NumericLiteral",
+                          "start": 38,
+                          "end": 39,
+                          "loc": {
+                            "start": {
+                              "line": 1,
+                              "column": 38,
+                              "index": 38
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 39,
+                              "index": 39
+                            }
+                          },
+                          "extra": {
+                            "rawValue": 0,
+                            "raw": "0"
+                          },
+                          "value": 0
+                        }
+                      },
+                      "extra": {
+                        "parenthesized": true,
+                        "parenStart": 0
+                      },
+                      "comments": [],
+                      "errors": []
+                    }
+                  },
+                  "modifiers": [],
+                  "loc": {
+                    "start": {
+                      "column": 10,
+                      "line": 42,
+                      "offset": 995
+                    },
+                    "end": {
+                      "column": 55,
+                      "line": 42,
+                      "offset": 1040
+                    },
+                    "source": "v-if=\"subProfile && subProfile.id.length > 0\""
+                  }
+                },
+                {
+                  "type": 6,
+                  "name": "class",
+                  "nameLoc": {
+                    "start": {
+                      "column": 56,
+                      "line": 42,
+                      "offset": 1041
+                    },
+                    "end": {
+                      "column": 61,
+                      "line": 42,
+                      "offset": 1046
+                    },
+                    "source": "class"
+                  },
+                  "value": {
+                    "type": 2,
+                    "content": "sub-profile-content",
+                    "loc": {
+                      "start": {
+                        "column": 62,
+                        "line": 42,
+                        "offset": 1047
+                      },
+                      "end": {
+                        "column": 83,
+                        "line": 42,
+                        "offset": 1068
+                      },
+                      "source": "\"sub-profile-content\""
+                    }
+                  },
+                  "loc": {
+                    "start": {
+                      "column": 56,
+                      "line": 42,
+                      "offset": 1041
+                    },
+                    "end": {
+                      "column": 83,
+                      "line": 42,
+                      "offset": 1068
+                    },
+                    "source": "class=\"sub-profile-content\""
+                  }
+                }
+              ],
+              "children": [
+                {
+                  "type": 1,
+                  "tag": "SubProfileContainerModular",
+                  "ns": 0,
+                  "tagType": 1,
+                  "props": [
+                    {
+                      "type": 7,
+                      "name": "bind",
+                      "rawName": ":subProfile",
+                      "exp": {
+                        "type": 4,
+                        "loc": {
+                          "start": {
+                            "column": 22,
+                            "line": 44,
+                            "offset": 1125
+                          },
+                          "end": {
+                            "column": 32,
+                            "line": 44,
+                            "offset": 1135
+                          },
+                          "source": "subProfile"
+                        },
+                        "content": "subProfile",
+                        "isStatic": false,
+                        "constType": 0,
+                        "ast": null
+                      },
+                      "arg": {
+                        "type": 4,
+                        "loc": {
+                          "start": {
+                            "column": 10,
+                            "line": 44,
+                            "offset": 1113
+                          },
+                          "end": {
+                            "column": 20,
+                            "line": 44,
+                            "offset": 1123
+                          },
+                          "source": "subProfile"
+                        },
+                        "content": "subProfile",
+                        "isStatic": true,
+                        "constType": 3
+                      },
+                      "modifiers": [],
+                      "loc": {
+                        "start": {
+                          "column": 9,
+                          "line": 44,
+                          "offset": 1112
+                        },
+                        "end": {
+                          "column": 33,
+                          "line": 44,
+                          "offset": 1136
+                        },
+                        "source": ":subProfile=\"subProfile\""
+                      }
+                    },
+                    {
+                      "type": 7,
+                      "name": "bind",
+                      "rawName": ":contentActive",
+                      "exp": {
+                        "type": 4,
+                        "loc": {
+                          "start": {
+                            "column": 25,
+                            "line": 45,
+                            "offset": 1161
+                          },
+                          "end": {
+                            "column": 38,
+                            "line": 45,
+                            "offset": 1174
+                          },
+                          "source": "contentActive"
+                        },
+                        "content": "contentActive",
+                        "isStatic": false,
+                        "constType": 0,
+                        "ast": null
+                      },
+                      "arg": {
+                        "type": 4,
+                        "loc": {
+                          "start": {
+                            "column": 10,
+                            "line": 45,
+                            "offset": 1146
+                          },
+                          "end": {
+                            "column": 23,
+                            "line": 45,
+                            "offset": 1159
+                          },
+                          "source": "contentActive"
+                        },
+                        "content": "contentActive",
+                        "isStatic": true,
+                        "constType": 3
+                      },
+                      "modifiers": [],
+                      "loc": {
+                        "start": {
+                          "column": 9,
+                          "line": 45,
+                          "offset": 1145
+                        },
+                        "end": {
+                          "column": 39,
+                          "line": 45,
+                          "offset": 1175
+                        },
+                        "source": ":contentActive=\"contentActive\""
+                      }
+                    },
+                    {
+                      "type": 7,
+                      "name": "on",
+                      "rawName": "@onSectionClick",
+                      "exp": {
+                        "type": 4,
+                        "loc": {
+                          "start": {
+                            "column": 26,
+                            "line": 46,
+                            "offset": 1201
+                          },
+                          "end": {
+                            "column": 40,
+                            "line": 46,
+                            "offset": 1215
+                          },
+                          "source": "onSectionClick"
+                        },
+                        "content": "onSectionClick",
+                        "isStatic": false,
+                        "constType": 0,
+                        "ast": null
+                      },
+                      "arg": {
+                        "type": 4,
+                        "loc": {
+                          "start": {
+                            "column": 10,
+                            "line": 46,
+                            "offset": 1185
+                          },
+                          "end": {
+                            "column": 24,
+                            "line": 46,
+                            "offset": 1199
+                          },
+                          "source": "onSectionClick"
+                        },
+                        "content": "onSectionClick",
+                        "isStatic": true,
+                        "constType": 3
+                      },
+                      "modifiers": [],
+                      "loc": {
+                        "start": {
+                          "column": 9,
+                          "line": 46,
+                          "offset": 1184
+                        },
+                        "end": {
+                          "column": 41,
+                          "line": 46,
+                          "offset": 1216
+                        },
+                        "source": "@onSectionClick=\"onSectionClick\""
+                      }
+                    }
+                  ],
+                  "children": [],
+                  "loc": {
+                    "start": {
+                      "column": 7,
+                      "line": 43,
+                      "offset": 1076
+                    },
+                    "end": {
+                      "column": 11,
+                      "line": 47,
+                      "offset": 1227
+                    },
+                    "source": "<SubProfileContainerModular\n        :subProfile=\"subProfile\"\n        :contentActive=\"contentActive\"\n        @onSectionClick=\"onSectionClick\"\n        />"
+                  },
+                  "isSelfClosing": true
+                }
+              ],
+              "loc": {
+                "start": {
+                  "column": 5,
+                  "line": 42,
+                  "offset": 990
+                },
+                "end": {
+                  "column": 11,
+                  "line": 48,
+                  "offset": 1238
+                },
+                "source": "<div v-if=\"subProfile && subProfile.id.length > 0\" class=\"sub-profile-content\">\n      <SubProfileContainerModular\n        :subProfile=\"subProfile\"\n        :contentActive=\"contentActive\"\n        @onSectionClick=\"onSectionClick\"\n        />\n    </div>"
+              }
+            }
+          ],
+          "loc": {
+            "start": {
+              "column": 3,
+              "line": 41,
+              "offset": 955
+            },
+            "end": {
+              "column": 9,
+              "line": 49,
+              "offset": 1247
+            },
+            "source": "<div class=\"sub-profile-view\">\n    <div v-if=\"subProfile && subProfile.id.length > 0\" class=\"sub-profile-content\">\n      <SubProfileContainerModular\n        :subProfile=\"subProfile\"\n        :contentActive=\"contentActive\"\n        @onSectionClick=\"onSectionClick\"\n        />\n    </div>\n  </div>"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "column": 1,
+          "line": 40,
+          "offset": 942
+        },
+        "end": {
+          "column": 12,
+          "line": 50,
+          "offset": 1259
+        },
+        "source": "<template>\n  <div class=\"sub-profile-view\">\n    <div v-if=\"subProfile && subProfile.id.length > 0\" class=\"sub-profile-content\">\n      <SubProfileContainerModular\n        :subProfile=\"subProfile\"\n        :contentActive=\"contentActive\"\n        @onSectionClick=\"onSectionClick\"\n        />\n    </div>\n  </div>\n</template>"
+      },
+      "innerLoc": {
+        "start": {
+          "column": 11,
+          "line": 40,
+          "offset": 952
+        },
+        "end": {
+          "column": 1,
+          "line": 50,
+          "offset": 1248
+        },
+        "source": "\n  <div class=\"sub-profile-view\">\n    <div v-if=\"subProfile && subProfile.id.length > 0\" class=\"sub-profile-content\">\n      <SubProfileContainerModular\n        :subProfile=\"subProfile\"\n        :contentActive=\"contentActive\"\n        @onSectionClick=\"onSectionClick\"\n        />\n    </div>\n  </div>\n"
+      }
+    },
+    {
+      "type": 1,
+      "tag": "style",
+      "ns": 0,
+      "tagType": 0,
+      "props": [
+        {
+          "type": 6,
+          "name": "scoped",
+          "nameLoc": {
+            "start": {
+              "column": 8,
+              "line": 52,
+              "offset": 1268
+            },
+            "end": {
+              "column": 14,
+              "line": 52,
+              "offset": 1274
+            },
+            "source": "scoped"
+          },
+          "loc": {
+            "start": {
+              "column": 8,
+              "line": 52,
+              "offset": 1268
+            },
+            "end": {
+              "column": 14,
+              "line": 52,
+              "offset": 1274
+            },
+            "source": "scoped"
+          }
+        },
+        {
+          "type": 6,
+          "name": "lang",
+          "nameLoc": {
+            "start": {
+              "column": 15,
+              "line": 52,
+              "offset": 1275
+            },
+            "end": {
+              "column": 19,
+              "line": 52,
+              "offset": 1279
+            },
+            "source": "lang"
+          },
+          "value": {
+            "type": 2,
+            "content": "scss",
+            "loc": {
+              "start": {
+                "column": 20,
+                "line": 52,
+                "offset": 1280
+              },
+              "end": {
+                "column": 26,
+                "line": 52,
+                "offset": 1286
+              },
+              "source": "\"scss\""
+            }
+          },
+          "loc": {
+            "start": {
+              "column": 15,
+              "line": 52,
+              "offset": 1275
+            },
+            "end": {
+              "column": 26,
+              "line": 52,
+              "offset": 1286
+            },
+            "source": "lang=\"scss\""
+          }
+        }
+      ],
+      "children": [
+        {
+          "type": 2,
+          "content": "\n  div.sub-profile-view{\n    width: 100%;\n    min-height: 500px;\n  }\n  div.sub-profile-content{\n    width: 25%;\n    margin: 0 auto;\n    padding-top: 5px;\n    padding-bottom: 15px;\n    min-height: 500px;\n  }\n  html, body {\n    padding:0;\n    margin:0;\n    border: none\n  }\n\n  @media only screen and (min-width: 1200px){\n    div.sub-profile-content{\n      width: 40%;\n    }\n  }\n  @media only screen and (min-width: 1001px){\n    div.sub-profile-content{\n      width: 45%;\n    }\n  }\n  @media only screen and (max-width: 1000px){\n    div.sub-profile-content{\n      width: 50%;\n    }\n  }\n  @media only screen and (max-width: 850px){\n    div.sub-profile-content{\n      width: 65%;\n    }\n  }\n  @media only screen and (max-width: 750px){\n    div.sub-profile-content{\n      width: 75%;\n    }\n  }\n  @media only screen and (max-width: 650px){\n    div.sub-profile-content{\n      width: 100%;\n    }\n  }\n",
+          "loc": {
+            "start": {
+              "column": 27,
+              "line": 52,
+              "offset": 1287
+            },
+            "end": {
+              "column": 1,
+              "line": 100,
+              "offset": 2176
+            },
+            "source": "\n  div.sub-profile-view{\n    width: 100%;\n    min-height: 500px;\n  }\n  div.sub-profile-content{\n    width: 25%;\n    margin: 0 auto;\n    padding-top: 5px;\n    padding-bottom: 15px;\n    min-height: 500px;\n  }\n  html, body {\n    padding:0;\n    margin:0;\n    border: none\n  }\n\n  @media only screen and (min-width: 1200px){\n    div.sub-profile-content{\n      width: 40%;\n    }\n  }\n  @media only screen and (min-width: 1001px){\n    div.sub-profile-content{\n      width: 45%;\n    }\n  }\n  @media only screen and (max-width: 1000px){\n    div.sub-profile-content{\n      width: 50%;\n    }\n  }\n  @media only screen and (max-width: 850px){\n    div.sub-profile-content{\n      width: 65%;\n    }\n  }\n  @media only screen and (max-width: 750px){\n    div.sub-profile-content{\n      width: 75%;\n    }\n  }\n  @media only screen and (max-width: 650px){\n    div.sub-profile-content{\n      width: 100%;\n    }\n  }\n"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "column": 1,
+          "line": 52,
+          "offset": 1261
+        },
+        "end": {
+          "column": 9,
+          "line": 100,
+          "offset": 2184
+        },
+        "source": "<style scoped lang=\"scss\">\n  div.sub-profile-view{\n    width: 100%;\n    min-height: 500px;\n  }\n  div.sub-profile-content{\n    width: 25%;\n    margin: 0 auto;\n    padding-top: 5px;\n    padding-bottom: 15px;\n    min-height: 500px;\n  }\n  html, body {\n    padding:0;\n    margin:0;\n    border: none\n  }\n\n  @media only screen and (min-width: 1200px){\n    div.sub-profile-content{\n      width: 40%;\n    }\n  }\n  @media only screen and (min-width: 1001px){\n    div.sub-profile-content{\n      width: 45%;\n    }\n  }\n  @media only screen and (max-width: 1000px){\n    div.sub-profile-content{\n      width: 50%;\n    }\n  }\n  @media only screen and (max-width: 850px){\n    div.sub-profile-content{\n      width: 65%;\n    }\n  }\n  @media only screen and (max-width: 750px){\n    div.sub-profile-content{\n      width: 75%;\n    }\n  }\n  @media only screen and (max-width: 650px){\n    div.sub-profile-content{\n      width: 100%;\n    }\n  }\n</style>"
+      },
+      "innerLoc": {
+        "start": {
+          "column": 27,
+          "line": 52,
+          "offset": 1287
+        },
+        "end": {
+          "column": 1,
+          "line": 100,
+          "offset": 2176
+        },
+        "source": "\n  div.sub-profile-view{\n    width: 100%;\n    min-height: 500px;\n  }\n  div.sub-profile-content{\n    width: 25%;\n    margin: 0 auto;\n    padding-top: 5px;\n    padding-bottom: 15px;\n    min-height: 500px;\n  }\n  html, body {\n    padding:0;\n    margin:0;\n    border: none\n  }\n\n  @media only screen and (min-width: 1200px){\n    div.sub-profile-content{\n      width: 40%;\n    }\n  }\n  @media only screen and (min-width: 1001px){\n    div.sub-profile-content{\n      width: 45%;\n    }\n  }\n  @media only screen and (max-width: 1000px){\n    div.sub-profile-content{\n      width: 50%;\n    }\n  }\n  @media only screen and (max-width: 850px){\n    div.sub-profile-content{\n      width: 65%;\n    }\n  }\n  @media only screen and (max-width: 750px){\n    div.sub-profile-content{\n      width: 75%;\n    }\n  }\n  @media only screen and (max-width: 650px){\n    div.sub-profile-content{\n      width: 100%;\n    }\n  }\n"
+      }
+    }
+  ],
+  "helpers": {},
+  "components": [],
+  "directives": [],
+  "hoists": [],
+  "imports": [],
+  "cached": [],
+  "temps": 0,
+  "loc": {
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
+    },
+    "end": {
+      "column": 1,
+      "line": 101,
+      "offset": 2185
+    },
+    "source": "<script setup lang=\"ts\">\nimport { ref, PropType } from 'vue'\nimport { onBeforeRouteLeave } from 'vue-router'\n\nimport { SubProfile, UserSubProfile } from '@/types'\n\nimport SubProfileContainerModular from '@/components/profile/SubProfileContainerModular.vue'\n\nconst { subProfile } = defineProps({\n    subProfile: {\n        type: Object as PropType<SubProfile | UserSubProfile | null>,\n        required: true\n    }\n})\n\nconst contentActive = ref(false)\n\nfunction beforeUnloadListener (e: Event) {\n  e.preventDefault()\n  return ''\n}\n\nfunction onSetContentActive (active: boolean) {\n  contentActive.value = active\n  if (active) addEventListener('beforeunload', beforeUnloadListener, { capture: true })\n  else removeEventListener('beforeunload', beforeUnloadListener, { capture: true })\n}\n\nfunction onSectionClick (id: number) {\n  // SECTION CLICK\n}\n\nonBeforeRouteLeave((to, from, next) => {\n  onSetContentActive(false)\n  next(false)\n})\n\n</script>\n\n<template>\n  <div class=\"sub-profile-view\">\n    <div v-if=\"subProfile && subProfile.id.length > 0\" class=\"sub-profile-content\">\n      <SubProfileContainerModular\n        :subProfile=\"subProfile\"\n        :contentActive=\"contentActive\"\n        @onSectionClick=\"onSectionClick\"\n        />\n    </div>\n  </div>\n</template>\n\n<style scoped lang=\"scss\">\n  div.sub-profile-view{\n    width: 100%;\n    min-height: 500px;\n  }\n  div.sub-profile-content{\n    width: 25%;\n    margin: 0 auto;\n    padding-top: 5px;\n    padding-bottom: 15px;\n    min-height: 500px;\n  }\n  html, body {\n    padding:0;\n    margin:0;\n    border: none\n  }\n\n  @media only screen and (min-width: 1200px){\n    div.sub-profile-content{\n      width: 40%;\n    }\n  }\n  @media only screen and (min-width: 1001px){\n    div.sub-profile-content{\n      width: 45%;\n    }\n  }\n  @media only screen and (max-width: 1000px){\n    div.sub-profile-content{\n      width: 50%;\n    }\n  }\n  @media only screen and (max-width: 850px){\n    div.sub-profile-content{\n      width: 65%;\n    }\n  }\n  @media only screen and (max-width: 750px){\n    div.sub-profile-content{\n      width: 75%;\n    }\n  }\n  @media only screen and (max-width: 650px){\n    div.sub-profile-content{\n      width: 100%;\n    }\n  }\n</style>\n"
+  }
+}

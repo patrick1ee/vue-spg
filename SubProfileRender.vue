@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, PropType } from 'vue'
+import { ref, computed, PropType } from 'vue'
 import { onBeforeRouteLeave } from 'vue-router'
 
 import { SubProfile, UserSubProfile } from '@/types'
@@ -29,6 +29,10 @@ function onSetContentActive (active: boolean) {
 function onSectionClick (id: number) {
   // SECTION CLICK
 }
+
+const c = computed(() => {
+  return 'test'
+})
 
 onBeforeRouteLeave((to, from, next) => {
   onSetContentActive(false)
